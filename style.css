@@ -190,3 +190,28 @@ h1{
     background:#B91C1C;
     transform:translateY(-2px);
 }
+@media (max-width:768px){
+
+.product{
+    grid-template-columns:1fr;
+    gap:15px;
+    text-align:center;
+}
+
+.actions{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.actions button{
+    width:100%;
+}
+
+.product button{
+    width:100%;
+    margin-top:8px;
+}
+
+}
